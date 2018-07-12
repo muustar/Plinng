@@ -1,0 +1,129 @@
+{"users": [
+{
+  "localId": "8oS4dwbykJQnLMENFcctP1T5TKQ2",
+  "email": "bubu@bu.com",
+  "emailVerified": false,
+  "passwordHash": "TdDXlCiIL/Jg2gwWdLaq/dFqxzazdrki9TOcb83SAf9OF+Fz3n64C1Ar26Hi+bACu0fdvip50uSic6HAzAJoDQ==",
+  "salt": "hbM0Vzx2uHT32w==",
+  "lastSignedInAt": "1529398293000",
+  "createdAt": "1526973408000",
+  "providerUserInfo": []
+},
+{
+  "localId": "GLhbPTAaxzURhVgASxiOxXY4yKU2",
+  "email": "kitudja@kitudja.com",
+  "emailVerified": false,
+  "passwordHash": "uxBLe9i3RPPZvpD6uk9/YBVAuCZcr5n6lCblZSO9erH//7qjruVFxgUImCT4I8h6+ni84LtDr/ZyWzKcD2jpEA==",
+  "salt": "YWS2IoiuQf7geQ==",
+  "lastSignedInAt": "1530977028000",
+  "createdAt": "1528373666000",
+  "providerUserInfo": []
+},
+{
+  "localId": "GlzT6gW7r9SngdfA9biP5OZ1J7e2",
+  "email": "muustar.develop@gmail.com",
+  "emailVerified": true,
+  "displayName": "Ferenc Molnár",
+  "photoUrl": "https://lh5.googleusercontent.com/-yOoGVu3cwl0/AAAAAAAAAAI/AAAAAAAAAAA/ACLGyWAh5Sz-5QbucJlxZLrobQgeZUxo-w/s96-c/photo.jpg",
+  "lastSignedInAt": "1526814089000",
+  "createdAt": "1525060240000",
+  "providerUserInfo": [
+    {
+      "providerId": "google.com",
+      "rawId": "108991970305809374763",
+      "email": "muustar.develop@gmail.com",
+      "displayName": "Ferenc Molnár",
+      "photoUrl": "https://lh5.googleusercontent.com/-yOoGVu3cwl0/AAAAAAAAAAI/AAAAAAAAAAA/AIcfdXBiZJObz0kYwEM2AfMCoOXuhtfntw/s96-c/photo.jpg"
+    }
+  ]
+},
+{
+  "localId": "I3MMZS83ajd6LknQctFtdj57g3s1",
+  "email": "fodor.attila@kdb.hu",
+  "emailVerified": false,
+  "passwordHash": "7COMvlcbdE78WSOFA30ipJ+djCUjniyz7sDqc4AbzhH1ZNWGIo5/dEKd8Jiln7euIIjqVIWhCTdErJsCoxIMJw==",
+  "salt": "Zt7Wgu5NnvGrkQ==",
+  "lastSignedInAt": "1528809366000",
+  "createdAt": "1528809366000",
+  "providerUserInfo": []
+},
+{
+  "localId": "Na4OXLUZYlUotgCYk3l8Lv1MPDy2",
+  "email": "muustar@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "1VoeUGYIQd60Y8a4XY7GmIy/UVT5Sp5DaSOfWMcsslK3TRfji/qf7LPDB6gWO1BgljLpMCSq4/b+MuMRe9K+WA==",
+  "salt": "QXlgrjZDzAdRug==",
+  "lastSignedInAt": "1531290418000",
+  "createdAt": "1526817652000",
+  "providerUserInfo": []
+},
+{
+  "localId": "THWkaWwIh3RGs8N08QfYswnXQZm2",
+  "email": "kocsi.viktoria@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "yYYVVwHG0dynAuwnlc82ltjlImadY/tNhA57CJ5VNLEiBtb3+xd6VyKv2TOGJSSMxY04H2y+Zv0utt3QFMgFDg==",
+  "salt": "4OOQMMGAKVcYsw==",
+  "lastSignedInAt": "1530902233000",
+  "createdAt": "1526818685000",
+  "providerUserInfo": []
+},
+{
+  "localId": "USNwh8xQEFd9D01zaPBUgniK0Xv2",
+  "email": "c@c.hu",
+  "emailVerified": false,
+  "passwordHash": "nBHTY11aJ6NhaOKL/4coJ2RrRB5gh9hzZlwRH1bm2u8uxfF4KDWx9CDzV9SlSlhYluAYR+LWH2zVrwj1VQ44eA==",
+  "salt": "w8JaKiHGaOaE7w==",
+  "lastSignedInAt": "1530976522000",
+  "createdAt": "1525199903000",
+  "providerUserInfo": []
+},
+{
+  "localId": "XZ0lM0FLsITfk6a0Xohh85P7gE82",
+  "email": "benko.monika22@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "XVcwS2ChiI3LDHclti+m7SGsfO3gDc4voHmVq4wxLJNIAibVlloeJnMTMMWLlHhQ4wSAMcwDvjFJu4lG0aKrFQ==",
+  "salt": "u4uBXwG6HUEbkQ==",
+  "lastSignedInAt": "1528529978000",
+  "createdAt": "1528529978000",
+  "providerUserInfo": []
+},
+{
+  "localId": "jHTrqOGFF4Mw4goXoTBQkR6nTr03",
+  "email": "g@g.hu",
+  "emailVerified": false,
+  "passwordHash": "kUilNye/jyE65jtFvUCnRuiv7q9jtyouTQyj6gmSnqQfcVSbkzTQaE1zIa5ZOH6VusNZaNFyQnxr2e8tiM0F+A==",
+  "salt": "+35vCsO4TBvn8w==",
+  "lastSignedInAt": "1531290593000",
+  "createdAt": "1525275311000",
+  "providerUserInfo": []
+},
+{
+  "localId": "lc8r6Zw0tue3fPLKUbNDmbpqSrf2",
+  "email": "w@w.hu",
+  "emailVerified": false,
+  "passwordHash": "j+NvQvMkzDJ0zVE7wuiIWVKT6cbmVhnerebuk6Peg5paEPHZy3BO8PmxVWJthJ4aMldBaVfYPm+8JYg/q5fJEA==",
+  "salt": "RQCIT1Y8wvuLTA==",
+  "lastSignedInAt": "1530899208000",
+  "createdAt": "1527095895000",
+  "providerUserInfo": []
+},
+{
+  "localId": "p8ZAYkoqtvSLhouTmjxHrcIZUzZ2",
+  "email": "makilany@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "YG9BkZ+ocP8KzMpLIjmfjejwX41neshjd/by42rdxu2CfTogb0BylVcl3LrADfXm9+6hdYPhAD8ueqvYk60WAw==",
+  "salt": "gAerRfE9nt/8DQ==",
+  "lastSignedInAt": "1530900106000",
+  "createdAt": "1528385346000",
+  "providerUserInfo": []
+},
+{
+  "localId": "pbGdjCEhjndFVGVqjTZiPXw43Zw1",
+  "email": "szvd762@gmail.com",
+  "emailVerified": false,
+  "passwordHash": "Ur7WNULvnmnrxTTWEn6UiX+tyZNBVQMn9kuwFHvGtbKfNM73pAJeiGuvAvRk5WtWXPaTtEuIq72XfrZzvUhnEg==",
+  "salt": "6JIfDrEdo738IA==",
+  "lastSignedInAt": "1530976660000",
+  "createdAt": "1526931376000",
+  "providerUserInfo": []
+}]}

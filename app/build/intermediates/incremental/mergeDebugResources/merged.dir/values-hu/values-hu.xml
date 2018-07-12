@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="a_minute_ago">egy perccel ezelőtt</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ugrás a főoldalra"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Felfelé mozgatás"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"További lehetőségek"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Kész"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Összes megtekintése"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Válasszon ki egy alkalmazást"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"KI"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"BE"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Keresés…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Lekérdezés törlése"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Keresési lekérdezés"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Keresés"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Lekérdezés küldése"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Hangalapú keresés"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Megosztás a következő alkalmazással: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Összecsukás"</string>
+    <string name="accept_friend_request">Felkérés elfogadása</string>
+    <string name="account_settings">Fiók beállításai</string>
+    <string name="admin">Admin</string>
+    <string name="all_users">Minden Felhasználó</string>
+    <string name="already_have_account">Már regisztráltam</string>
+    <string name="an_hour_ago">egy órája</string>
+    <string name="app_name">Plinng</string>
+    <string name="appinfo">Alkalmazás Infó</string>
+    <string name="az_email_c_m_cser_j_hez">Az email cím cseréjéhez meg kell adni a jelenlegi email cimet és jelszót, majd az új emal címet.</string>
+    <string name="cancel_friend_request">Jelölés törlése</string>
+    <string name="change_email">E-mail cím módosítás</string>
+    <string name="change_image">Kép csere</string>
+    <string name="change_status">Állapot megváltoztatása</string>
+    <string name="change_the_splash_screen_time">Splash screen időkorlátja</string>
+    <string name="channel_description">uj_barat</string>
+    <string name="channel_name">mychat</string>
+    <string name="chats">BESZÉLGETÉSEK</string>
+    <string name="color_picker">Színválasztó</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Engedélyezés"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás csak akkor működik, ha  engedélyezi a Google Play-szolgáltatásokat."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-szolgáltatások engedélyezése"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Telepítés"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek hiányoznak az eszközről."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"A Google Play-szolgáltatások beszerzése"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play-szolgáltatások elérhetősége"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play-szolgáltatások – hiba"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás problémába ütközött a Google Play-szolgáltatások használata során. Próbálkozzon újra."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyeket eszköze nem támogat."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Frissítés"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"A Google Play-szolgáltatások frissítése"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"A(z) <ns1:g id="APP_NAME">%1$s</ns1:g> alkalmazás nem fut a Google Play-szolgáltatások nélkül, amelyek frissítése folyamatban van."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"A Google Play-szolgáltatások új verziójára van szükség. A szolgáltatás hamarosan frissíti önmagát."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Megnyitás a telefonon"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Bejelentkezés"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Bejelentkezés Google-fiókkal"</string>
+    <string name="create_a_new_account">Új fiók létrehozása</string>
+    <string name="create_account">Fiók Létrehozása</string>
+    <string name="current_email_address">Jelenlegi email cím</string>
+    <string name="days_ago">nappal ezelőtt</string>
+    <string name="decline_friend_request">Felkérés visszautasítása</string>
+    <string name="delete_message">A törölt beszélgetés a partnernél továbbra is látszik, habár a képek véglegesen törlésre kerülnek.</string>
+    <string name="delete_profile">Fiók Törlése</string>
+    <string name="deleted_message">törölt üzenet</string>
+    <string name="display_name">Display Name</string>
+    <string name="displayname">Megjelenő Név</string>
+    <string name="done">Kész</string>
+    <string name="dummy_content">Plinng</string>
+    <string name="email">Email</string>
+    <string name="enter_message_here">Üzenj valamit ...</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Egyéb"</string>
+    <string name="friends">BARÁTOK</string>
+    <string name="friends_have">barátja van</string>
+    <string name="have">Neki</string>
+    <string name="hello">HELLO</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="here_you_can_sen_notifications_for_everyone_please_be_careful">Ezen a képernyőn tudsz értesítést küldeni minden felhazsnálónak</string>
+    <string name="hi_there_i_m_using_lapit_chat_app">Hi there, I\'m using Lapit Chat App</string>
+    <string name="hours_ago">órával ezelőtt</string>
+    <string name="just_now">épp most járt erre</string>
+    <string name="less_than_a_minute">kevesebb mint egy perce</string>
+    <string name="log_out">Kijelentkezés</string>
+    <string name="login">Belépés</string>
+    <string name="login_to_the_account">Belépés a fiókomba</string>
+    <string name="minute_ago">perccel ezelőtt</string>
+    <string name="need_a_new_account">Új fiókot szeretnék</string>
+    <string name="need_a_new_password">Új jelszót kérek</string>
+    <string name="new_email_address">Új email cím</string>
+    <string name="new_image">Új kép üzenet</string>
+    <string name="new_password_request">Új jelszó igénylés</string>
+    <string name="online">aktív</string>
+    <string name="open_profile">Profile megnyitása</string>
+    <string name="password">Jelszó</string>
+    <string name="password_8_car">A jelszó legalaább 8 karakter legyen</string>
+    <string name="profile_settings">Fiók beállításai</string>
+    <string name="requests">ÉRTESÍTÉSEK</string>
+    <string name="save_changes">Módosítások mentése</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Keresés"</string>
+    <string name="seen">látta</string>
+    <string name="select_options">Kérlek válassz</string>
+    <string name="send">Küldés</string>
+    <string name="send_friend_request">Barátnak jelölöm</string>
+    <string name="send_message">Üzenet küldés</string>
+    <string name="send_notification">Értesítés küldése</string>
+    <string name="sent">még nem látta</string>
+    <string name="sent_a_new_message">Új üzenet</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="the_avaiable_update_is_downloadable_from_this_link">A letöltés az alábbi linken elérhető</string>
+    <string name="the_sound_what_are_you_waiting_for">- a hang amire vársz</string>
+    <string name="this_is_main_page">Ez a kezdőlap</string>
+    <string name="torles_tajekoztato_txt">A Felhasználói fiókod törlését kérted. A fiók törlését meg kell erősítened a bejelentkezési adataiddal, kérlek add meg mégegyszer és utoljára az e-mail címedet és jelszavad.</string>
+    <string name="unfriend">Szétválás</string>
+    <string name="update">frissítés</string>
+    <string name="users">Felhasználók</string>
+    <string name="vibrate_at_new_message">Vibrálás új üzenetnél</string>
+    <string name="visible_email">Email megjelenítés</string>
+    <string name="wanna_be_your_friend">Barát jelölés</string>
+    <string name="welcome_to_lapit_chat_app">Üdvözöl a Plinng chat</string>
+    <string name="write_your_email_address_again">Add meg az email címed újra. Az új jelszó igénylése után kapni fogsz egy emailt benne egy linkkel melyen keresztül meg tudod változtatni a jelszavad.</string>
+    <string name="yesterday">tegnap</string>
+    <string name="your_status">Fejezd ki magad</string>
+</resources>

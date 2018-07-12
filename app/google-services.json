@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "361326610438",
+    "firebase_url": "https://plinng-b623f.firebaseio.com",
+    "project_id": "plinng-b623f",
+    "storage_bucket": "plinng-b623f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361326610438:android:b77bb51ea2eb3db7",
+        "android_client_info": {
+          "package_name": "com.muustar.plinng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361326610438-d7k1vp63sdj1vccuri3o6fet2sk8af6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.muustar.plinng",
+            "certificate_hash": "5d6efc426f0563a49a387eb63c8aee8da28f6f1a"
+          }
+        },
+        {
+          "client_id": "361326610438-7u6rknbl8v2b8o5i5jq457bg4689391p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpakk28nXs2ohzm0uB_ENP2Auxo2bqW38"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361326610438-7u6rknbl8v2b8o5i5jq457bg4689391p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

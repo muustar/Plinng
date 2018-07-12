@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/users_single_image"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_placeholder_face"
+        android:transitionName="imageTrans" />
+
+    <TextView
+        android:id="@+id/users_single_displayname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/users_single_dot"
+        android:layout_alignTop="@id/users_single_image"
+        android:layout_marginLeft="5dp"
+        android:text="Display Name"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:transitionName="nameTrans" />
+
+
+    <TextView
+        android:id="@+id/users_single_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_below="@id/users_single_displayname"
+        android:layout_alignStart="@+id/users_single_displayname"
+        android:autoLink="web"
+        android:text="Status"
+        android:transitionName="statusTrans" />
+
+    <ImageView
+        android:id="@+id/users_single_dot"
+        android:layout_width="13dp"
+        android:layout_height="11dp"
+        android:layout_marginStart="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/users_single_image"
+        app:srcCompat="@mipmap/offline_dot" />
+
+</RelativeLayout>

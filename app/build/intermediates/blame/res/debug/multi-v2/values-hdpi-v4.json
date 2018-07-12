@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fa8b8434560dd2a1b839debfa57c2fda/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
