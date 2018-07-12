@@ -364,7 +364,7 @@ public class ChatActivity extends AppCompatActivity {
                                     // Continue only if the File was successfully created
                                     if (photoFile != null) {
                                         Uri photoURI = FileProvider.getUriForFile(ChatActivity.this,
-                                                "com.example.android.fileprovider",
+                                                "com.muustar.plinng.fileprovider",
                                                 photoFile);
                                         takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT,
                                                 photoURI);

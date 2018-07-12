@@ -1,14 +1,19 @@
 package com.muustar.plinng;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.TextInputLayout;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
@@ -18,6 +23,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.auth.UserProfileChangeRequest;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.iid.FirebaseInstanceId;
@@ -36,9 +42,8 @@ public class RegisterActivity extends AppCompatActivity {
     private DatabaseReference mDatabase;
     private ProgressBar mProgressBar;
 
-    private String DEFAULT_IMAGE_ON_STORAGE = "https://firebasestorage.googleapis" +
-            ".com/v0/b/lapitchat-9a229.appspot.com/o/profile_images%2Fdefault%2Fdefault" +
-            ".png?alt=media&token=c25f4f16-74c7-4952-8657-efad8a7f3098";
+    private String DEFAULT_IMAGE_ON_STORAGE = "https://firebasestorage.googleapis.com/v0/b/plinng-b623f"
+            +".appspot.com/o/default.png?alt=media&token=5f27d934-c781-46ee-9fc7-4b2a09a54a1a";
     private String[] mFunnyStrings;
     private Random r = new Random();
 
@@ -81,7 +86,7 @@ public class RegisterActivity extends AppCompatActivity {
                         .isEmpty(password)) {
                     if (password.length() >= 8) {
                         register_user(display_name, email, password);
-                    }else{
+                    } else {
                         Toast.makeText(RegisterActivity.this, getString(R.string.password_8_car), Toast.LENGTH_SHORT).show();
                     }
                 }
@@ -89,7 +94,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 
-    private void register_user(final String display_name, String email, String password) {
+    private void register_user(final String display_name, final String email, String password) {
         mProgressBar.setVisibility(View.VISIBLE);
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -103,10 +108,54 @@ public class RegisterActivity extends AppCompatActivity {
                             String uid = currentUser.getUid();
                             String deviceToken = FirebaseInstanceId.getInstance().getToken();
 
+                            UserProfileChangeRequest profileUpdates = new UserProfileChangeRequest.Builder()
+                                    .setDisplayName(display_name)
+                                    .build();
+
+                            currentUser.updateProfile(profileUpdates)
+                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if (task.isSuccessful()) {
+                                                Log.d(TAG, "User profile updated.");
+                                            }
+                                        }
+                                    });
+
+
+                            // sikeres registráció után elküldjük az email verifikációs üzenetet
+                            currentUser.sendEmailVerification()
+                                    .addOnCompleteListener(new OnCompleteListener<Void>() {
+                                        @Override
+                                        public void onComplete(@NonNull Task<Void> task) {
+                                            if (task.isSuccessful()) {
+                                                Log.d(TAG, "Email sent.");
+                                                //Toast.makeText(RegisterActivity.this, "Kérlek erősítsd meg az email címed, ehhez küldtünk rá egy új üzenetet", Toast.LENGTH_SHORT).show();
+
+                                                // hide keyboard
+                                                InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                                                mgr.hideSoftInputFromWindow(mPassword.getWindowToken(), 0);
+
+                                                // tájékoztatás megjelenítése
+                                                AlertDialog.Builder alertDialog = new AlertDialog.Builder(RegisterActivity.this);
+                                                alertDialog.setMessage("A regisztráció véglegesítéségez emailt küldtünk a(z) " + email + " e-mail címre. Kérlek erősítsd meg az email címed az üzenetben lévő linkre kattintva.");
+                                                alertDialog.setPositiveButton("Megértettem",
+                                                        new DialogInterface.OnClickListener() {
+                                                            public void onClick(DialogInterface dialog, int which) {
+                                                                finish();
+                                                            }
+                                                        });
+                                                alertDialog.show();
+                                            }
+                                        }
+                                    });
+
                             // a statusnak beállítunk egy véletlen funnystringet
                             int funnyPosition = r.nextInt(mFunnyStrings.length) + 1;
                             String funnyStatus = mFunnyStrings[funnyPosition];
 
+                            /*
+                            //user adatainak mentése az adatbázisba
                             mDatabase = FirebaseDatabase.getInstance().getReference().child
                                     ("Users").child(uid);
 
@@ -128,6 +177,8 @@ public class RegisterActivity extends AppCompatActivity {
                                     }
                                 }
                             });
+
+                            */
                         } else {
                             mProgressBar.setVisibility(View.INVISIBLE);
                             // If sign in fails, display a message to the user.

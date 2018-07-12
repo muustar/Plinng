@@ -1105,6 +1105,21 @@
             ]
         },
         {
+            "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fa8b8434560dd2a1b839debfa57c2fda/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat",
             "map": [
                 {
@@ -1207,21 +1222,6 @@
                         "startOffsets": "2830",
                         "endColumns": "180",
                         "endOffsets": "3006"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fa8b8434560dd2a1b839debfa57c2fda/res/values-port/values-port.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "55",
-                        "endOffsets": "106"
                     }
                 }
             ]
@@ -1422,6 +1422,53 @@
             ]
         },
         {
+            "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-he_values-he.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.7.0.aar/5a2adddd7bcfaf96896ef7a4a8b8eaa9/res/values-he/values-he.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,146,193,247,301,375,446,523,585",
+                        "endColumns": "90,46,53,53,73,70,76,61,68",
+                        "endOffsets": "141,188,242,296,370,441,518,580,649"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fa8b8434560dd2a1b839debfa57c2fda/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,209,309,417,501,601,716,793,869,951,1054,1158,1257,1362,1465,1569,1725,1825",
+                        "endColumns": "103,99,107,83,99,114,76,75,81,102,103,98,104,102,103,155,99,81",
+                        "endOffsets": "204,304,412,496,596,711,788,864,946,1049,1153,1252,1357,1460,1564,1720,1820,1902"
+                    }
+                },
+                {
+                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/08bbf9edb18af3c024dec1a1340f1f61/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1907",
+                        "endColumns": "100",
+                        "endOffsets": "2003"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-v26_values-v26.arsc.flat",
             "map": [
                 {
@@ -1460,53 +1507,6 @@
                         "endLines": "19,21",
                         "endColumns": "12,96",
                         "endOffsets": "1135,1325"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/fa8b8434560dd2a1b839debfa57c2fda/res/values-en-rAU/values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,209,309,417,501,601,716,793,869,951,1054,1158,1257,1362,1465,1569,1725,1825",
-                        "endColumns": "103,99,107,83,99,114,76,75,81,102,103,98,104,102,103,155,99,81",
-                        "endOffsets": "204,304,412,496,596,711,788,864,946,1049,1153,1252,1357,1460,1564,1720,1820,1902"
-                    }
-                },
-                {
-                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/08bbf9edb18af3c024dec1a1340f1f61/res/values-en-rAU/values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1907",
-                        "endColumns": "100",
-                        "endOffsets": "2003"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-he_values-he.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.7.0.aar/5a2adddd7bcfaf96896ef7a4a8b8eaa9/res/values-he/values-he.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,146,193,247,301,375,446,523,585",
-                        "endColumns": "90,46,53,53,73,70,76,61,68",
-                        "endOffsets": "141,188,242,296,370,441,518,580,649"
                     }
                 }
             ]
@@ -2295,6 +2295,21 @@
             ]
         },
         {
+            "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-ru-rRU_values-ru-rRU.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.7.0.aar/5a2adddd7bcfaf96896ef7a4a8b8eaa9/res/values-ru-rRU/values-ru-rRU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,171,257,339,412,487",
+                        "endColumns": "57,57,85,81,72,74,76",
+                        "endOffsets": "108,166,252,334,407,482,559"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
@@ -2380,21 +2395,6 @@
                         "startOffsets": "2754",
                         "endColumns": "166",
                         "endOffsets": "2916"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/feco/Android/Plinng/app/build/intermediates/res/merged/debug/values-ru-rRU_values-ru-rRU.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/feco/.gradle/caches/transforms-1/files-1.1/android-image-cropper-2.7.0.aar/5a2adddd7bcfaf96896ef7a4a8b8eaa9/res/values-ru-rRU/values-ru-rRU.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,113,171,257,339,412,487",
-                        "endColumns": "57,57,85,81,72,74,76",
-                        "endOffsets": "108,166,252,334,407,482,559"
                     }
                 }
             ]

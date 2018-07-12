@@ -355,7 +355,7 @@ ADDED from /home/feco/Android/Plinng/app/src/main/AndroidManifest.xml:110:9-118:
 	android:grantUriPermissions
 		ADDED from /home/feco/Android/Plinng/app/src/main/AndroidManifest.xml:114:13-47
 	android:authorities
-		ADDED from /home/feco/Android/Plinng/app/src/main/AndroidManifest.xml:112:13-67
+		ADDED from /home/feco/Android/Plinng/app/src/main/AndroidManifest.xml:112:13-66
 	android:exported
 		ADDED from /home/feco/Android/Plinng/app/src/main/AndroidManifest.xml:113:13-37
 	android:name
